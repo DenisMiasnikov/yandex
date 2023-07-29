@@ -69,4 +69,14 @@ git log
 
 ```mermaid
 
+graph LR;
+
+  untracked -- "git add" --> staged;
+  staged -- "modified" --> rtacked/commited;
+
+%% example arrow
+
+  A --> B;
+```
+
 ```
