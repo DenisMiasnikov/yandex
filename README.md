@@ -11,7 +11,7 @@ git init
 2. Connect it to remout repository
 
 ```Bash
-git add remote origin 'your link'
+git remote add origin 'your link'
 
 ```
 
